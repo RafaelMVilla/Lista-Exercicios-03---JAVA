@@ -31,5 +31,6 @@ public class Exercicio03 {
 
         System.out.println("Salário Final: " + objVendedor.salariototal());
 
+        ler.close();
     }
 }
