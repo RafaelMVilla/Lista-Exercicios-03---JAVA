@@ -6,7 +6,8 @@ public class Programa {
         // lista.Exercicio02.executar();
         // lista.Exercicio03.executar();
         // lista.Exercicio04.executar();
-        lista.Exercicio05.executar();
+        // lista.Exercicio05.executar();
+        lista.Exercicio06.executar();
 
     }
 }
