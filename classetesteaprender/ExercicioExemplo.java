@@ -7,9 +7,9 @@ package classetesteaprender;
 
 import java.util.Scanner;
 
-import classes.CalculosMatematicos;
-import classetesteaprender.Equipamento;
-import classetesteaprender.PersonagemLol;
+// import classes.CalculosMatematicos;
+// import classetesteaprender.Equipamento;
+// import classetesteaprender.PersonagemLol;
 
 
 public class ExercicioExemplo {
@@ -59,6 +59,8 @@ public class ExercicioExemplo {
 
         // CRIACAO DA ESPADA SEM CONSTRUTOR
         PersonagemLol p1 = new PersonagemLol("Fizz", 100,300,450,100,10);
+
+        // OU ABAIXO..
 
         p1.nome = "Fizz";
         p1.forca = 100;
