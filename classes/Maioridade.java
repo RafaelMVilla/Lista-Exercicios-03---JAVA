@@ -16,15 +16,13 @@ public class Maioridade {
 
     public int verificarMaioridade(int index){
 
-        for (int j = 0; j < contador; j++) {
             
-            if (idade[index] > 18) {
+            if (idade[index] >= 18) {
                 maioridade = 1;
             } else {
                 maioridade = 0;
             }
-        }
-
+    
         return maioridade;
     }
 }
