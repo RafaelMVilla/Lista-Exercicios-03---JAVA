@@ -16,7 +16,6 @@ public class Maioridade {
 
     public int verificarMaioridade(int index){
 
-            
             if (idade[index] >= 18) {
                 maioridade = 1;
             } else {

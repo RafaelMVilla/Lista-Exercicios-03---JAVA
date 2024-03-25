@@ -6,7 +6,6 @@ Faça um programa que receba a idade de um número finito de pessoas e mostre me
 package lista;
 
 import java.util.Scanner;
-
 import classes.Maioridade;
 
 
