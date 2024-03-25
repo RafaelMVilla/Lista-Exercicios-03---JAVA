@@ -15,7 +15,7 @@ public class Exercicio09 {
         Scanner ler = new Scanner(System.in);
         IntervaloNumeros objIntervaloNumeros = new IntervaloNumeros();
 
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 80; i++) {
             
             System.out.println("Digite o "+ (i + 1) + "º número: ");
             objIntervaloNumeros.valor[i] = ler.nextInt();

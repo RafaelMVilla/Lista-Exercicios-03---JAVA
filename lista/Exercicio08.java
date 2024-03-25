@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 import classes.NotasAluno;
 
-public class Exericicio08 {
+public class Exercicio08 {
 
     public static void executar(){
 
