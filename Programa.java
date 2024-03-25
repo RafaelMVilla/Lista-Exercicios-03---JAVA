@@ -9,7 +9,8 @@ public class Programa {
         // lista.Exercicio05.executar();
         // lista.Exercicio06.executar();
         // lista.Exercicio07.executar();
-        lista.Exericicio08.executar();
+        // lista.Exericicio08.executar();
+        lista.Exercicio09.executar();
 
     }
 }
