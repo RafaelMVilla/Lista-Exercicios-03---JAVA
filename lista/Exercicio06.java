@@ -7,6 +7,7 @@ package lista;
 
 import java.util.Scanner;
 import classes.Custo;
+import classes.Validadores;
 
 public class Exercicio06 {
     
@@ -18,13 +19,13 @@ public class Exercicio06 {
         String entradaPrecoCusto = "";
         String entradaAcrescimo = "";
 
-        while (Custo.isDouble(entradaPrecoCusto) == false) {
+        while (Validadores.isDouble(entradaPrecoCusto) == false) {
             
             System.out.println("Digite o preço de custo do produto: ");
             entradaPrecoCusto = ler.nextLine();
         }
 
-        while (Custo.isDouble(entradaAcrescimo) == false) {
+        while (Validadores.isDouble(entradaAcrescimo) == false) {
             
             System.out.println("Digite a percentagem de acréscimo: ");
             entradaAcrescimo = ler.nextLine();
