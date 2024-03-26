@@ -14,7 +14,7 @@ public class Maioridade {
         this.idade = new int[contador];
     }
 
-    public int verificarMaioridade(int index){
+    public  int verificarMaioridade(int index){
 
             if (idade[index] >= 18) {
                 maioridade = 1;

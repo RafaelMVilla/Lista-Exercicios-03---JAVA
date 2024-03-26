@@ -12,7 +12,8 @@ public class Programa {
         // lista.Exercicio08.executar();
         // lista.Exercicio09.executar();
         // lista.Exercicio10.executar();
-        lista.Exercicio11.executar();
+        // lista.Exercicio11.executar();
+        lista.Exercicio12.executar();
 
 
     }
