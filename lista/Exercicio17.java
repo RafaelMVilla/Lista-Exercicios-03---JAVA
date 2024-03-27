@@ -7,11 +7,37 @@ package lista;
 
 import java.util.Scanner;
 
+import classes.EmpresaFolhaPagamento;
+
 public class Exercicio17 {
     
     public static void executar(){
 
         Scanner ler = new Scanner(System.in);
+
+        System.out.println("Digite o nome do funcionário: ");
+        String nome = ler.nextLine();
+
+        System.out.println("Digite o seu salário: ");
+        double salarioFuncionario = ler.nextDouble();
+
+        System.out.println("DIgite o salário mínimo: ");
+        double salarioMinimo = ler.nextDouble();
+
+        System.out.println("Digite a percentagem de reajuste desejada: ");
+        double percReajuste = ler.nextDouble();
+
+        EmpresaFolhaPagamento objEmpresaFolhaPagamento = new EmpresaFolhaPagamento(nome, salarioFuncionario, salarioFuncionario, percReajuste);
+
+        System.out.println("----------------------------");
+
+        System.out.println("Nome: " + objEmpresaFolhaPagamento.nome);
+
+        System.out.println("Salário mínimo: " + objEmpresaFolhaPagamento.salarioMinimo);
+
+        System.out.println("Salário anterior ao reajuste: " + objEmpresaFolhaPagamento.salarioFuncionario);
+
+        System.out.println("Salário após o reajuste: " + objEmpresaFolhaPagamento.calcularReajuste());
 
         
 
