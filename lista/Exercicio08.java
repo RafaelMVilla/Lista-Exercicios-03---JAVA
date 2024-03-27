@@ -14,23 +14,23 @@ public class Exercicio08 {
     public static void executar(){
 
         Scanner ler = new Scanner(System.in);
-        NotasAluno objAluno = new NotasAluno();
-
+        
         System.out.println("Digite seu nome: ");
-        objAluno.nome = ler.nextLine();
-
+        String nome = ler.nextLine();
+        
         System.out.println("Digite sua primeira nota: ");
-        objAluno.nota1 = ler.nextDouble();
-
-
+        double nota1 = ler.nextDouble();
+        
+        
         System.out.println("Digite sua segunda nota: ");
-        objAluno.nota2 = ler.nextDouble();
-
-
+        double nota2 = ler.nextDouble();
+        
+        
         System.out.println("Digite sua terceira nota: ");
-        objAluno.nota3 = ler.nextDouble();
-
-
+        double nota3 = ler.nextDouble();
+        
+        
+        NotasAluno objAluno = new NotasAluno(nome, nota1, nota2, nota3);
 
         System.out.println("--------------------");
         System.out.println("Nome: " + objAluno.nome);
