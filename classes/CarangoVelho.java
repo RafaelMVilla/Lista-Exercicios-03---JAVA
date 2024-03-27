@@ -12,14 +12,6 @@ public class CarangoVelho {
         this.precoCarro = precoCarro;
         this.verificador = verificador;
     }
-
-    public CarangoVelho(char opcao){
-
-        if (opcao == 'S' || opcao == 's') {
-            
-        }
-    }
-
     
 
     public double  contaDesconto(){

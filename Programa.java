@@ -13,7 +13,7 @@ public class Programa {
         // lista.Exercicio09.executar();
         // lista.Exercicio10.executar();
         // lista.Exercicio11.executar();
-        // lista.Exercicio12.executar();
+        lista.Exercicio12.executar();
         // lista.Exercicio13.executar();
         // lista.Exercicio14.executar();
         // lista.Exercicio15.executar();
@@ -27,7 +27,7 @@ public class Programa {
         // lista.Exercicio23.executar();
         // lista.Exercicio24.executar();
         // lista.Exercicio25.executar();
-        lista.Exercicio26.executar();
+        // lista.Exercicio26.executar();
 
 
     }
