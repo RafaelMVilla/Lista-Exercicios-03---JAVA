@@ -18,8 +18,8 @@ public class Programa {
         // lista.Exercicio14.executar();
         // lista.Exercicio15.executar();
         // lista.Exercicio16.executar();
-        lista.Exercicio17.executar();
-        // lista.Exercicio18.executar();
+        // lista.Exercicio17.executar();
+        lista.Exercicio18.executar();
         // lista.Exercicio19.executar();
         // lista.Exercicio20.executar();
         // lista.Exercicio21.executar();
