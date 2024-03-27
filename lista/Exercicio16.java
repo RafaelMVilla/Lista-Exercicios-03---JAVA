@@ -18,12 +18,12 @@ public class Exercicio16 {
     public static void executar(){
 
         Scanner ler = new Scanner(System.in);
-        EmpresaReajuste objEmpresaReajuste[] = new EmpresaReajuste[4];
+        EmpresaReajuste objEmpresaReajuste[] = new EmpresaReajuste[584];
 
         System.out.println("Digite o salário mínimo atual: "); 
         double salarioMinimo = ler.nextDouble();
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 584; i++) {
 
             
             System.out.println("Digite seu salário funcionário Nº " + (i + 1) + ": ");
@@ -34,7 +34,7 @@ public class Exercicio16 {
             System.out.println("----------------------------------------");
         }
 
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 584; i++) {
 
             System.out.printf("Salário anterior do reajuste: R$ %.2f\n", objEmpresaReajuste[i].salarioFuncionario);
 
