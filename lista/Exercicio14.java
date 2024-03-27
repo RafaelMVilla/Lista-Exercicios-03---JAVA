@@ -14,7 +14,7 @@ public class Exercicio14 {
     public static void executar(){
 
         Scanner ler = new Scanner(System.in);
-        VendaProdutos[] objVendaProdutos = new VendaProdutos[5];
+        VendaProdutos[] objVendaProdutos = new VendaProdutos[40];
 
         double totalCusto = 0;
         double totalVenda = 0;

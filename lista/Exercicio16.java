@@ -11,12 +11,31 @@ package lista;
 
 import java.util.Scanner;
 
+import classes.EmpresaReajuste;
+
 public class Exercicio16 {
     
     public static void executar(){
 
         Scanner ler = new Scanner(System.in);
 
+        System.out.println("Digite o salário mínimo atual: "); 
+        double salarioMinimo = ler.nextDouble();
 
+        for (int i = 0; i < 3; i++) {
+
+            EmpresaReajuste objEmpresaReajuste[] = new EmpresaReajuste[i];
+            
+            System.out.println("Digite seu salário funcionário Nº" + (i + 1) + ": ");
+            double salarioFuncionario = ler.nextDouble();
+
+            
+            
+
+
+            System.out.println("-------------------------");
+        }
+
+        ler.close();
     }
 }
