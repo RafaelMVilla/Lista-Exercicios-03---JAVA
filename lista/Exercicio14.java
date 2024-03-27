@@ -19,7 +19,7 @@ public class Exercicio14 {
         double totalCusto = 0;
         double totalVenda = 0;
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 40; i++) {
             
             System.out.println("Digite o preço de custo do produto: ");
             double precoCusto = ler.nextDouble();
@@ -38,7 +38,7 @@ public class Exercicio14 {
 
         }
 
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 40; i++) {
 
             
             if (objVendaProdutos[i].calcularVenda() == 1) {
