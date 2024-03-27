@@ -26,8 +26,8 @@ public class Programa {
         // lista.Exercicio22.executar();
         // lista.Exercicio23.executar();
         // lista.Exercicio24.executar();
-        lista.Exercicio25.executar();
-        // lista.Exercicio26.executar();
+        // lista.Exercicio25.executar();
+        lista.Exercicio26.executar();
 
 
     }
