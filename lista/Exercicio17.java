@@ -21,13 +21,13 @@ public class Exercicio17 {
         System.out.println("Digite o seu salário: ");
         double salarioFuncionario = ler.nextDouble();
 
-        System.out.println("DIgite o salário mínimo: ");
+        System.out.println("Digite o salário mínimo: ");
         double salarioMinimo = ler.nextDouble();
 
         System.out.println("Digite a percentagem de reajuste desejada: ");
         double percReajuste = ler.nextDouble();
 
-        EmpresaFolhaPagamento objEmpresaFolhaPagamento = new EmpresaFolhaPagamento(nome, salarioFuncionario, salarioFuncionario, percReajuste);
+        EmpresaFolhaPagamento objEmpresaFolhaPagamento = new EmpresaFolhaPagamento(nome, salarioFuncionario, salarioMinimo, percReajuste);
 
         System.out.println("----------------------------");
 
